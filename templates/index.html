@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Date and Time</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/index.css')}}">
+</head>
+<body>
+    <h2>GreenHouse Monitoring System</h2>
+    <p>For temperature, the value is {{temp}} at degree celsius</p>
+    <p>For humidity, the value is {{humidity}}% </p>
+    <p>For light level, the value is {{light_level}}W/m^2 </p>
+    <p>For sensor ID, the value is {{sensor_id}} </p>
+    <p>The current time value is {{date_time}} </p>
+</body>
+</html>
